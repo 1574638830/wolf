@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url("../images/game_bg.jpg") no-repeat 0 0;
+    width: 320px;
+    height: 480px;
+    margin: 50px auto;
+    position: relative;
+}
+.container>h1{
+    color: #fff;
+    margin: 70px;
+}
+.container>.progress{
+    position: absolute;
+    left: 63px;
+    top: 66px;
+    width: 180px;
+    height: 16px;
+}
+.container>.start{
+    width: 120px;
+    height: 50px;
+    margin-top: 130px;
+    margin-left: 100px;
+    background: salmon;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.container>.rules{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #ccc;
+    text-align: center;
+}
+.container>.rule{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    box-sizing: border-box;
+    display: none;
+}
+.rule>p{
+    line-height: 50px;
+    color: #fff;
+}
+.rule>a{
+    color: red;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 140px;
+    box-sizing: border-box; 
+    display: none;
+}
+.mask>h1{
+    font-size: 40px;
+    color: sandybrown;
+    text-shadow: 3px 3px 0 #fff;
+}
+.mask>button{
+    width: 120px;
+    height: 50px;
+    margin-top: 49px;
+    background: rgb(179, 175, 238);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
